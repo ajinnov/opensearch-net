@@ -345,8 +345,7 @@ namespace OpenSearch.Net.Utf8Json.Resolvers
 				// special case for exception, modify
 				serializationInfo = new MetaType(type, nameMutator, propertyMapper, false)
 				{
-					BestMatchConstructor = null,
-					ConstructorParameters = []
+					BestMatchConstructor = null
 				};
 
 				serializationInfo.Members = new[] { new StringConstantValueMetaMember(nameMutator("ClassName"), type.FullName) }
