@@ -1,9 +1,9 @@
 <Project>
   <!-- Default Version numbers -->
   <PropertyGroup>
-    <CurrentVersion>2.0.0</CurrentVersion>
-    <CurrentAssemblyVersion>2.0.0</CurrentAssemblyVersion>
-    <CurrentAssemblyFileVersion>2.0.0</CurrentAssemblyFileVersion>
+    <CurrentVersion>1.7.1</CurrentVersion>
+    <CurrentAssemblyVersion>1.7.1</CurrentAssemblyVersion>
+    <CurrentAssemblyFileVersion>1.7.1</CurrentAssemblyFileVersion>
     <!-- Version and Informational reflect actual version -->
     <Version>$(CurrentVersion)</Version>
     <InformationalVersion>$(CurrentVersion)</InformationalVersion>
