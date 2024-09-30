@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Version>3.0.2</Version>
+    <Version>3.0.5</Version>
     <PackageId>OpenSearch.Client</PackageId>
     <Title>High-level OpenSearch client for .NET</Title>
     <PackageTags>opensearch;opensearch;search;lucene;client;opensearch.client</PackageTags>

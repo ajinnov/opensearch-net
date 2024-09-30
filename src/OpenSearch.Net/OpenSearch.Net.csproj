@@ -2,6 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>OpenSearch.Net</PackageId>
+    <Version>3.0.5</Version>
     <Title>OpenSearch.Net</Title>
     <PackageTags>opensearch;opensearch;search;lucene;client;opensearch.client</PackageTags>
     <Description>

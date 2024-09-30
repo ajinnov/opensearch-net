@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Version>3.0.5</Version>
     <PackageId>OpenSearch.Net.Auth.AwsSigV4</PackageId>
     <Title>OpenSearch.Net.Auth.AwsSigV4</Title>
     <PackageTags>opensearch;opensearch;search;lucene;client;opensearch.client</PackageTags>
