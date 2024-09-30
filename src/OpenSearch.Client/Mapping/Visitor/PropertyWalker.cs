@@ -109,7 +109,9 @@ namespace OpenSearch.Client
 			var type = GetUnderlyingType(propertyInfo.PropertyType);
 
 			if (type == typeof(string))
-				return new TextProperty
+				return new KeywordProperty();
+				
+				/*return new TextProperty
 				{
 					Fields = new Properties
 					{
@@ -120,7 +122,7 @@ namespace OpenSearch.Client
 							}
 						}
 					}
-				};
+				};*/
 
 			if (type.IsEnum)
 			{
@@ -155,7 +157,13 @@ namespace OpenSearch.Client
 						return new NumberProperty(NumberType.Double);
 					case "DateTime":
 					case "DateTimeOffset":
-						return new DateProperty();
+					case "DateOnly": // Ligne à rajouter
+						return new DateProperty(); // Ligne existante
+					case "TimeOnly": // Tout ça à rajouter
+						return new DateProperty()
+						{
+							Format = "strict_hour_minute_second_millis"
+						};
 					case "Boolean":
 						return new BooleanProperty();
 					case "Char":
